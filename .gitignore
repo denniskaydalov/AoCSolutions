@@ -1,0 +1,7 @@
+*.in
+*.out
+run
+cpi
+cpo
+*.txt
+frun
