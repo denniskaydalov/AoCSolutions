@@ -16,13 +16,13 @@ int main() {
                 cout << '\n';
                 x = 0;
             }
-            if(x == d-1 || x == d || x == d+1) cout << "█"; else cout << "░";
+            if(x == d-1 || x == d || x == d+1) cout << "█"; else cout << " ";
             x++;
             if(x == 40) {
                 cout << '\n';
                 x = 0;
             }
-            if(x == d-1 || x == d || x == d+1) cout << "█"; else cout << "░";
+            if(x == d-1 || x == d || x == d+1) cout << "█"; else cout << " ";
             x++;
             d += t;
         }
@@ -31,7 +31,7 @@ int main() {
                 cout << '\n';
                 x = 0;
             }
-            if(x == d-1 || x == d || x == d+1) cout << "█"; else cout << "░";
+            if(x == d-1 || x == d || x == d+1) cout << "█"; else cout << " ";
             x++;
         }
     }
